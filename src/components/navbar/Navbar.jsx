@@ -25,7 +25,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="visip__navbar-sign">
-        <button type="button">Contact Us</button>
+        <a href="mailto:contact@visip.in">
+          <button type="button">Contact Us</button>
+        </a>
       </div>
       <div className="visip__navbar-menu">
         {toggleMenu ? (
