@@ -11,7 +11,9 @@ const Footer = () => (
     </div>
 
     <div className="visip__footer-btn">
-      <p>Contact Us Soon</p>
+      <a href="mailto:contact@visip.in">
+        <p>Contact Us Soon</p>
+      </a>
     </div>
 
     <div className="visip__footer-links">

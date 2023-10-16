@@ -61,7 +61,9 @@ const Navbar = () => {
               </p>
             </div>
             <div className="visip__navbar-menu_container-links-sign">
-              <button type="button">Contact Us</button>
+              <a href="mailto:contact@visip.in">
+                <button type="button">Contact Us</button>
+              </a>
             </div>
           </div>
         )}
