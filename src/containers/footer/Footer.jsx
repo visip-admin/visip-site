@@ -36,8 +36,12 @@ const Footer = () => (
       </div>
       <div className="visip__footer-links_div">
         <h4>Get in touch</h4>
-        <p>+91-996-581-7968</p>
-        <p>contact@visip.in</p>
+        <a href="tel://+91-996-581-7968/">
+          <p>+91-996-581-7968</p>
+        </a>
+        <a href="mailto:contact@visip.in">
+          <p>contact@visip.in</p>
+        </a>
       </div>
     </div>
 
