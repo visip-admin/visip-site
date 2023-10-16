@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy0": "yarn add react-scripts",
+    "prebuild": "yarn add react-scripts",
     "predeploy": "yarn run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
